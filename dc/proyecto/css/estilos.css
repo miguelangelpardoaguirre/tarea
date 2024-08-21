@@ -1,0 +1,482 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.638)),
+    url(images/dc3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.header_heroes{
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.638)),
+    url(images/superheroes.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header_villanos{
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.638)),
+    url(images/villanos2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header_multi{
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.638)),
+    url(images/multi.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    border-radius: 100%;
+    width: 10%;
+}
+
+.menu .nav ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .nav ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: aliceblue;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .nav ul li a:hover{
+    color: rgb(188, 108, 32);
+}
+
+#menu{
+    display: none;
+}
+#menu_icono{
+    width: 25px;
+
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header_content{
+    text-align: center;
+}
+.header_content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header_content p{
+    font-size: 16px;
+    color: aliceblue;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.boton1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(148, 84, 1);
+    color: rgb(220, 217, 195);
+    text-transform: uppercase;
+}
+
+.boton1:hover{
+    background-color: bisque;
+    color: rgb(148, 84, 1);;
+}
+
+.inicio{
+    padding: 100px 0;
+    color: rgb(220, 217, 195);
+    position: relative;
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.853),
+    rgba(0, 0, 0, 0.8)),
+    url(images/dc2.jpg);
+}
+.inicio_content{
+    text-align: center;
+}
+
+.inicio_content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: rgb(220, 217, 195);
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.texto{
+    font-size: 16px;
+    color: rgb(220, 217, 195);
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.inicio_2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 100%;
+
+}
+.inicio_3{
+    padding: 0 25px;
+}
+.inicio_3 img{
+    width: 100%;
+    
+}
+.img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.inicio_3 h3{
+    color: rgb(220, 217, 195);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.servicios{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.8)),
+        url(images/comic.jpg);
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+
+}
+
+.servicios_content{
+    text-align: center;
+
+}
+
+.servicios_content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: aliceblue;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+
+}
+
+.servicios_group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.servicios_1{
+    padding: 1 100px;
+}
+
+.servicios_1 img{
+    width: 15em;
+    margin-bottom: 15px;
+    
+}
+
+.servicios_1 h3{
+    color: blanchedalmond;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.general{
+    display: flex;
+}
+
+.general_1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: rgba(14, 14, 14, 0.692);
+}
+
+.general_2{
+    background-image: url(images/villano.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general_3{
+    background-image: url(images/heroe.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general_2h{
+    background-image: url(images/superman-vs-theflash_xpdd-scaled.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general_3h{
+    background-image: url(images/batman_vs_superman.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general_2m{
+    background-image: url(images/vampiros.jfif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general_3m{
+    background-image: url(images/bullseyecard2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(220, 217, 195);
+    margin: 25px 0 45px 0;
+}
+
+.blog{
+    padding: 100px 0;
+    text-align: center;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.8)),
+        url(images/comic.jpg);
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+
+.blog_content{
+    display: flex;
+    justify-content: space-between;
+}
+.blog_1{
+    padding: 15px 55px;
+}
+
+.blog_1  img{
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.blog_1 h3{
+    font-size: 25px;
+    color: rgb(220, 217, 195);
+}
+
+.footer{
+    padding: 100px 0 ;
+    background-color: black;
+
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+link h3{
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.link a{
+    font-size: 16px;
+    color:antiquewhite;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right:0 ;
+        background-color: black;
+        display: none;
+    }
+    .menu .nav ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .nav{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+    .header_content{
+        padding: 100px 30px;
+    }
+    .header_content p{
+        padding: 0;
+    }
+
+    .inicio{
+        padding: 30px;
+    }
+    .inicio_content h2{
+        padding: 0;
+    }
+    .texto{
+        padding: 0;
+    }
+    .inicio_2{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .hamburguesa{
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .servicios{
+        padding: 30px;
+    }
+
+    .servicios_content p{
+        padding: 0;
+    }
+
+    .servicios_group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .servicios_1{
+        margin-bottom: 25px;
+    }
+
+    .general{
+        flex-direction: column;
+    }
+
+    .general_1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general_2, .general_3{
+        display: none;
+    }
+
+    .blog{
+        padding: 30px;
+    }
+
+    .blog_content{
+        flex-direction: column;
+    }
+
+    .blog_1{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer_content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
